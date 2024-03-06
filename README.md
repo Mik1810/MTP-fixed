@@ -4,19 +4,20 @@ Keys in One-time pad encryption (OTP) should only be used once, when they get re
 
 MTP Interactive uses automated cryptanalysis to present a partial decryption which can be solved interactively.
 
-## Install
+## Install and fix
 
 Python 3.7+ required
 
-```
-pip3 install mtp
-```
+Clone this repository and run the following command in the root directory with a terminal (i have also tested it in pycharm but it seems not to work properly in the terminal of pycharm, so i recommend using the terminal of your operating system.)
 
-## Usage
 
 ```
-mtp examples/sample.ciphertexts
+./cli.py <path_to_the_file>
 ```
+
+
+Don't click on the window, use the arrow keys to move the cursor and the escape key (ESC) to open the menu.
+
 
 [![asciicast](https://asciinema.org/a/204705.png)](https://asciinema.org/a/204705)
 

@@ -24,3 +24,7 @@ def main() -> None:
         sys.exit("Invalid hexadecimal: {error}")
 
     many_time_pad_attack(ciphertexts, args.output_file)
+
+if __name__ == '__main__':
+    print("Hello Cli")
+    main()
